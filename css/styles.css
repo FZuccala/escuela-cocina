@@ -8,6 +8,9 @@ p{
     font-size: 1.2rem;
     line-height: 3rem;
 }
+a{
+    transition: all .3s ease-in-out;
+}
 body {
     font-family: 'Roboto', sans-serif;
     color:#303030;
@@ -130,4 +133,14 @@ section.licenciatura a{
 }
 section.licenciatura a:hover{
     background-color: #d85c5e!important;
+}
+/** Footer **/
+footer.footer{
+    border-bottom: 10px solid var(--primario);
+}
+footer .nav-link{
+    text-align: center;
+}
+p.copyright{
+    font-weight: 400;
 }
